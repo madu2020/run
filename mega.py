@@ -107,7 +107,7 @@ def main():
             lo=lo+"|"
             pr = i/180*100
             print("\033[1;36;40m\n>>> [+]",str(int(pr)) +"% ",end="")
-            print(lo)
+            print(lo,end="")
             
             time.sleep(0.5)
             sys.stdout.write("\033[F")
